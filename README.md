@@ -2,4 +2,4 @@
 
 [On StackBlitz](https://stackblitz.com/edit/web-platform-q2nu8k)
 
-[On github pages](https://pekatet.github.com/form-test)
+[On github pages](https://pekatet.github.io/form-test/)
