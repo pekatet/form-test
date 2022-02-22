@@ -1,3 +1,3 @@
-# web-platform-q2nu8k
+# Тестовое задание форма
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/web-platform-q2nu8k)
+[On StackBlitz](https://stackblitz.com/edit/web-platform-q2nu8k)
