@@ -33,7 +33,6 @@ function formToXml(form){
   }
   xmldata.push(periodGroup.outerHTML)
   xmldata.push("</ЗАПРОС_СВЕДЕНИЙ_О_СТРАХОВОМ_СТАЖЕ>");
-  console.log(xmldata);
   if(!error){
     xmlInput.value = xmldata.join("\n");
   }

@@ -11,13 +11,11 @@ body {
 
 .page {
   width: 90%;
-  
-  border-radius: 5px;
-  padding: 1em;
+  padding: 0 5%;
 }
 
 .labled-input {
-  padding: 1em;
+  padding: 1.2em;
   text-align: end;
 }
 
@@ -33,17 +31,17 @@ body {
 
 input[type=text], [type=number], select, textarea {
   width: 60%;
-  padding: 0.5em;
-  display: inline-block;
+  padding: 0.2em;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
   background-color: #f2f2f2;
   resize: vertical;
+  float: right;
 }
 
 input:valid {
-  border: 2px solid green;
+  border: 1px solid green;
 }
 
 label{ 
@@ -58,16 +56,15 @@ label{
 }
 
 .error {
-  display: inline-block;
-  white-space: nowrap;
-  padding: 0.3;
-  margin-bottom: 0.3em;
+  padding: 0;
+  margin-top: 0.1em;
   font-size: 80%;
   color: #900;
   background-color: rgb(255, 215, 215);
-  border-radius: 0 5px 5px 5px;
-
+  border-radius: 5px;
   box-sizing: border-box;
+  float: right;
+  clear: right;
 }
 
 .error.active {
