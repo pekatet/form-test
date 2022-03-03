@@ -17,14 +17,17 @@
             maxlength="40"
             required
           />
+          <span class=error></span>
         </div>
         <div class="labled-input">
           <label for="fname">Имя</label>
           <input type="text" id="fname" name="Имя" maxlength="40" required />
+          <span class=error></span>
         </div>
         <div class="labled-input">
           <label for="pname">Отчество</label>
           <input type="text" id="pname" name="Отчество" maxlength="40" />
+          <span class=error></span>
         </div>
         <div class="labled-input">
           <label for="snils">СНИЛС</label>
@@ -36,6 +39,7 @@
             required
             placeholder="XXX-XXX-XXX XX"
           />
+          <span class=error></span>
         </div>
         <div class="labled-input">
           <label for="birthday">Дата рождения</label>
@@ -47,6 +51,7 @@
             required
             placeholder="ДД.ММ.ГГГГ"
           />
+          <span class=error></span>
         </div>
         <div class="labled-input">
           <label for="data">Наличие данных</label>
@@ -59,34 +64,36 @@
           Общая продолжительность страхового стажа на дату обращения гражданина
         </div>
         <div class="labled-input">
-          <label for="expy">Общая продолжительность страхового стажа лет</label>
+          <label for="periodY">Общая продолжительность страхового стажа лет</label>
           <input
             type="number"
-            id="expy"
+            id="periodY"
             name="ОбщаяПродолжительностьСтраховогоСтажаЛет"
             min="0"
             max="999"
           />
+          <span class=error></span>
         </div>
         <div class="labled-input">
-          <label for="expm"
+          <label for="periodM"
             >Общая продолжительность страхового стажа месяцев</label
           >
           <input
             type="number"
-            id="expm"
+            id="periodM"
             name="ОбщаяПродолжительностьСтраховогоСтажаМесяцев"
             min="0"
             max="99"
           />
+          <span class=error></span>
         </div>
         <div class="labled-input">
-          <label for="expd"
+          <label for="periodD"
             >Общая продолжительность страхового стажа дней</label
           >
           <input
             type="number"
-            id="expd"
+            id="periodD"
             name="ОбщаяПродолжительностьСтраховогоСтажаДней"
             min="0"
             max="99"
